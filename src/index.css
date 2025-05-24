@@ -1,0 +1,19 @@
+/* Add this to your main CSS file */
+body {
+  margin: 0;
+  padding: 0;
+}
+.bg-dark {
+  background-color: #28293e !important;
+}
+.bg-cream{
+  background-color: #fdf0e9;
+}
+.border-cream{
+  border-color: #fdf0e9;
+}
+/* Add to App.css or your main stylesheet */
+.custom-gap {
+  display: flex;
+  gap: 6rem; /* Increase as needed, e.g., 4rem, 5rem */
+}

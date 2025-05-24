@@ -1,0 +1,43 @@
+.contact-section {
+  background-image: url('/map.png'); /* map background */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 4rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Location Pin */
+.map-pin {
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 3rem 1rem;
+  }
+
+  .map-pin {
+    width: 40px;
+    right: 10%;
+    top: auto;
+    bottom: 2rem;
+    transform: none;
+  }
+
+  .contact-card {
+    padding: 2rem;
+  }
+}

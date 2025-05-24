@@ -1,0 +1,31 @@
+.footer-section {
+  background-color: #fdece5;
+}
+
+.footer-link {
+  color: #4a2c2a;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.social-circle {
+  background-color: #ef6c57;
+  color: white;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.social-circle:hover {
+  opacity: 0.85;
+}
